@@ -76,3 +76,17 @@ Day 4:
        }
        return sum;
     }
+Day 5:
+1. https://www.codewars.com/kata/spongebob-meme/train/javascript
+    function spongeMeme(sentence) {
+      let str = '';
+      for (let i = 0; i < sentence.length; i++) {
+        if (i % 2 == 0) {
+        str = str + sentence[i].toUpperCase()
+        } else {
+        str = str + sentence[i].toLowerCase()
+        }
+      }
+    return str;
+
+    }
