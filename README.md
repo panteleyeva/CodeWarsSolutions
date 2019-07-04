@@ -90,6 +90,5 @@ ________________________________
     return str;
 
     }
-    New Branch
-    * 1st solution
-    * 2nd solution
+2.
+3.
