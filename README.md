@@ -50,7 +50,7 @@ ________________________________
       return x.shift() + sumR(x);
       }
     }
-Day 4:
+*Day 4:
 1. https://www.codewars.com/kata/array-plus-array/train/javascript
     function arrayPlusArray(arr1, arr2) {
       let sum1 = 0;
@@ -76,7 +76,7 @@ Day 4:
        }
        return sum;
     }
-Day 5:
+*Day 5:
 1. https://www.codewars.com/kata/spongebob-meme/train/javascript
     function spongeMeme(sentence) {
       let str = '';
