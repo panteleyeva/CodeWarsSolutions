@@ -90,5 +90,29 @@ ________________________________
     return str;
 
     }
-2.
-3.
+* Day 6:
+1. https://www.codewars.com/kata/valid-parentheses/train/javascript
+    function validParentheses(parens){
+      const arr = parens.split('');
+      let a = 0;
+      for (let i = 0; i < arr.length; i++) {
+        if (parens[i] === '(') a = a + 1;
+        else if (parens[i] === ')') a = a - 1;
+        if (a < 0) return false;
+      }
+        if (a === 0) return true;
+        else return false;
+    }
+2. https://www.codewars.com/kata/arrays-similar/train/javascript
+    function arraysSimilar(arr1, arr2) {
+      if (arr1.length !== arr2.length) return false;
+      arr1.sort();
+      arr2.sort();
+      for (let i = 0; i < arr1.length; i++) {
+        if (arr1[i] !== arr2[i]) return false;
+      }
+      return true
+    }
+3. https://www.codewars.com/kata/write-shortest-function-to-calculate-average-number-of-array/train/javascript
+    const avg = a => a.reduce((a, b) => a + b) / a.length
+
