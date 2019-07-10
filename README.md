@@ -116,3 +116,33 @@ ________________________________
 3. https://www.codewars.com/kata/write-shortest-function-to-calculate-average-number-of-array/train/javascript
     const avg = a => a.reduce((a, b) => a + b) / a.length
 
+* Day 7:
+1. https://www.codewars.com/kata/who-is-going-to-pay-for-the-wall/train/javascript
+    function whoIsPaying(name){
+    let arr = [name];
+      if(name.length > 2) {
+      let str = name.substring (0, 2);
+      arr.push (str);
+      }
+    return arr;
+    }
+2. https://www.codewars.com/kata/maximum-triplet-sum-array-series-number-7/train/javascript
+    function maxTriSum(num){
+    let sum = 0;
+    let res = num.sort((a, b) => b - a);
+    let arr = [];
+      for (let i = 0; i < res.length; i++){
+        if (arr.length >= 3){
+          break
+        }
+        if (!arr.includes(res[i])){
+          arr.push(res[i]);
+          sum += res[i];
+        }
+      }
+     return sum;
+    }
+3. https://www.codewars.com/kata/remove-duplicates-from-list/train/javascript
+    function distinct(a) {
+      return [... new Set(a)];
+    }
