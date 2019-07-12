@@ -146,3 +146,29 @@ ________________________________
     function distinct(a) {
       return [... new Set(a)];
     }
+* Day 8:
+1. https://www.codewars.com/kata/random-case/train/javascript
+    function randomCase(x) {
+    let str = '';
+      for (let i = 0; i < x.length; i++) {
+        if (Math.round(Math.random()) > 0) {
+        str = str + x[i].toUpperCase();
+        }
+      else {
+      str = str + x[i].toLowerCase();
+      }
+      }
+      return str;
+
+    }
+2. https://www.codewars.com/kata/sum-mixed-array/train/javascript
+    function sumMix(x){
+    let sum = 0;
+      for (let i = 0; i < x.length; i++) {
+         if (typeof x[i] === 'string'){
+         x[i] = Number(x[i]);
+         }
+         sum = sum + x[i];
+       }
+       return sum;
+     }
