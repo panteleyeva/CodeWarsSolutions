@@ -172,3 +172,23 @@ ________________________________
        }
        return sum;
      }
+* Day 9:
+1. https://www.codewars.com/kata/remove-string-spaces/train/javascript
+    function noSpace(x){
+      let str = x.replace(/ /g, '');
+       return str;
+    }
+2. https://www.codewars.com/kata/do-i-get-a-bonus/train/javascript
+    function bonusTime(salary, bonus) {
+      let str = '';
+      if (bonus) {
+       return str = '£' + salary * 10;
+       } else {
+        return str = '£' + salary;
+       }
+    }
+3. https://www.codewars.com/kata/returning-strings/train/javascript
+    function greet(name){
+       return `Hello, ${name} how are you doing today?`
+
+    }
