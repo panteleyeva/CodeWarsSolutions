@@ -246,3 +246,17 @@ ________________________________
        })
        .join(' ');
     }
+* Day 11:
+1. https://www.codewars.com/kata/square-n-sum/train/javascript
+    function squareSum(num){
+      let sum = 0;
+      for (let i = 0; i < num.length; i++) {
+        sum = sum + num[i] ** 2;
+      }
+      return sum;
+    }
+2. https://www.codewars.com/kata/grasshopper-messi-goals-function/train/javascript
+    function goals (laLigaGoals, copaDelReyGoals, championsLeagueGoals) {
+      total = laLigaGoals + copaDelReyGoals + championsLeagueGoals
+      return total;
+    }
