@@ -260,3 +260,16 @@ ________________________________
       total = laLigaGoals + copaDelReyGoals + championsLeagueGoals
       return total;
     }
+* Day 12:
+1. https://www.codewars.com/kata/isreallynan/train/javascript
+    const isReallyNaN = val => Number.isNaN(val);
+2. https://www.codewars.com/kata/convert-a-string-to-a-number/train/javascript
+    function stringToNumber(str) {
+      return Number (str);
+    }
+3. https://www.codewars.com/kata/sentence-smash/train/javascript
+    function smash (words) {
+      return words.join(' ')
+    }
+4. https://www.codewars.com/kata/reversing-words-in-a-string/train/javascript
+    const reverse = s => s.split(' ').reverse().join(' ');
