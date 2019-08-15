@@ -273,3 +273,13 @@ ________________________________
     }
 4. https://www.codewars.com/kata/reversing-words-in-a-string/train/javascript
     const reverse = s => s.split(' ').reverse().join(' ');
+* Day 13:
+1. https://www.codewars.com/kata/5266876b8f4bf2da9b000362
+    function likes(n) {
+    const l = n.length;
+      if (!l) return `no one likes this`;
+      if (l === 1) return `${n[0]} likes this`;
+      if (l === 2) return `${n[0]} and ${n[1]} like this`;
+      if (l === 3) return `${n[0]}, ${n[1]} and ${n[2]} like this`;
+      if (l > 3) return `${n[0]}, ${n[1]} and ${l - 2} others like this`;
+    }
